@@ -22,17 +22,7 @@ File and Data Management:
 Uses Google Cloud Storage (GCS) to manage files and data.
 Uses Google Cloud Firestore for structured data and metadata.
 File Structure
-Copy
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
 /project-root
    /src
        main.py          # Main application file
@@ -47,22 +37,6 @@ Code Implementation
 config.py
 Contains configuration settings such as API keys, model details, and Google Cloud credentials.
 python
-Copy
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
 # config.py
 import os
 
@@ -73,7 +47,7 @@ GOOGLE_APPLICATION_CREDENTIALS = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
 
 
 # Model Details
-MODEL_NAME = 'qwen-plus'
+MODEL_NAME = 'qwen2.5-72b-instruct'
 
 
 # Google Cloud Storage Bucket Name
